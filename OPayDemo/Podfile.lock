@@ -1,0 +1,16 @@
+PODS:
+  - OPaySDK (2)
+
+DEPENDENCIES:
+  - OPaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  OPaySDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OPaySDK: c3346fd3c3f55df9c025d99af812c67c0af94dab
+
+PODFILE CHECKSUM: 18b2cee956513819eed5bae7107ad118aaf5f566
+
+COCOAPODS: 1.2.0.beta.3

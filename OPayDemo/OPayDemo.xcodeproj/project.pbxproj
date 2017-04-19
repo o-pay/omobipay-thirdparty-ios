@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2519F16B1EA4621900DD50E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519F16A1EA4621900DD50E3 /* main.m */; };
+		2519F16E1EA4621900DD50E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519F16D1EA4621900DD50E3 /* AppDelegate.m */; };
+		2519F1711EA4621900DD50E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519F1701EA4621900DD50E3 /* ViewController.m */; };
+		2519F1741EA4621900DD50E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2519F1721EA4621900DD50E3 /* Main.storyboard */; };
+		2519F1761EA4621900DD50E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2519F1751EA4621900DD50E3 /* Assets.xcassets */; };
+		2519F1791EA4621900DD50E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2519F1771EA4621900DD50E3 /* LaunchScreen.storyboard */; };
+		4D62F81A5EA04045A3015942 /* libPods-OPayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A1A3395ED4D0560394902 /* libPods-OPayDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2519F1EB1EA4A1DC00DD50E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2519F1661EA4621900DD50E3 /* OPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2519F16A1EA4621900DD50E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2519F16C1EA4621900DD50E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2519F16D1EA4621900DD50E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2519F16F1EA4621900DD50E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2519F1701EA4621900DD50E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2519F1731EA4621900DD50E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2519F1751EA4621900DD50E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2519F1781EA4621900DD50E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2519F17A1EA4621900DD50E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5A1A3395ED4D0560394902 /* libPods-OPayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OPayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05A8F0A3B18B75327C6F966 /* Pods-OPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OPayDemo/Pods-OPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE031AFF402BFE84F3346946 /* Pods-OPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OPayDemo/Pods-OPayDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2519F1631EA4621900DD50E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D62F81A5EA04045A3015942 /* libPods-OPayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C774A97BA74C839BBEF4C17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F0A3B18B75327C6F966 /* Pods-OPayDemo.debug.xcconfig */,
+				EE031AFF402BFE84F3346946 /* Pods-OPayDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2519F15D1EA4621900DD50E3 = {
+			isa = PBXGroup;
+			children = (
+				2519F1681EA4621900DD50E3 /* OPayDemo */,
+				2519F1671EA4621900DD50E3 /* Products */,
+				0C774A97BA74C839BBEF4C17 /* Pods */,
+				6EA6D34A9F637E3C11F1783A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2519F1671EA4621900DD50E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2519F1661EA4621900DD50E3 /* OPayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2519F1681EA4621900DD50E3 /* OPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2519F16C1EA4621900DD50E3 /* AppDelegate.h */,
+				2519F16D1EA4621900DD50E3 /* AppDelegate.m */,
+				2519F16F1EA4621900DD50E3 /* ViewController.h */,
+				2519F1701EA4621900DD50E3 /* ViewController.m */,
+				2519F1721EA4621900DD50E3 /* Main.storyboard */,
+				2519F1751EA4621900DD50E3 /* Assets.xcassets */,
+				2519F1771EA4621900DD50E3 /* LaunchScreen.storyboard */,
+				2519F17A1EA4621900DD50E3 /* Info.plist */,
+				2519F1691EA4621900DD50E3 /* Supporting Files */,
+			);
+			path = OPayDemo;
+			sourceTree = "<group>";
+		};
+		2519F1691EA4621900DD50E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2519F16A1EA4621900DD50E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EA6D34A9F637E3C11F1783A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A1A3395ED4D0560394902 /* libPods-OPayDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2519F1651EA4621900DD50E3 /* OPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2519F17D1EA4621900DD50E3 /* Build configuration list for PBXNativeTarget "OPayDemo" */;
+			buildPhases = (
+				AB8CCB3832C3ABE931061BF6 /* [CP] Check Pods Manifest.lock */,
+				2519F1621EA4621900DD50E3 /* Sources */,
+				2519F1631EA4621900DD50E3 /* Frameworks */,
+				2519F1641EA4621900DD50E3 /* Resources */,
+				2519F1EB1EA4A1DC00DD50E3 /* Embed Frameworks */,
+				7288708C3B9F33D974A27BB8 /* [CP] Embed Pods Frameworks */,
+				D8C552366C94A3EFC2427DE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPayDemo;
+			productName = OPayDemo;
+			productReference = 2519F1661EA4621900DD50E3 /* OPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2519F15E1EA4621900DD50E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = OPay;
+				TargetAttributes = {
+					2519F1651EA4621900DD50E3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4L8ZYH7944;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2519F1611EA4621900DD50E3 /* Build configuration list for PBXProject "OPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2519F15D1EA4621900DD50E3;
+			productRefGroup = 2519F1671EA4621900DD50E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2519F1651EA4621900DD50E3 /* OPayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2519F1641EA4621900DD50E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2519F1791EA4621900DD50E3 /* LaunchScreen.storyboard in Resources */,
+				2519F1761EA4621900DD50E3 /* Assets.xcassets in Resources */,
+				2519F1741EA4621900DD50E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7288708C3B9F33D974A27BB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPayDemo/Pods-OPayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8CCB3832C3ABE931061BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C552366C94A3EFC2427DE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPayDemo/Pods-OPayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2519F1621EA4621900DD50E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2519F1711EA4621900DD50E3 /* ViewController.m in Sources */,
+				2519F16E1EA4621900DD50E3 /* AppDelegate.m in Sources */,
+				2519F16B1EA4621900DD50E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2519F1721EA4621900DD50E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2519F1731EA4621900DD50E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2519F1771EA4621900DD50E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2519F1781EA4621900DD50E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2519F17B1EA4621900DD50E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2519F17C1EA4621900DD50E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2519F17E1EA4621900DD50E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05A8F0A3B18B75327C6F966 /* Pods-OPayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L8ZYH7944;
+				INFOPLIST_FILE = OPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.opay.app.OPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2519F17F1EA4621900DD50E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE031AFF402BFE84F3346946 /* Pods-OPayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L8ZYH7944;
+				INFOPLIST_FILE = OPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.opay.app.OPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2519F1611EA4621900DD50E3 /* Build configuration list for PBXProject "OPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2519F17B1EA4621900DD50E3 /* Debug */,
+				2519F17C1EA4621900DD50E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2519F17D1EA4621900DD50E3 /* Build configuration list for PBXNativeTarget "OPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2519F17E1EA4621900DD50E3 /* Debug */,
+				2519F17F1EA4621900DD50E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2519F15E1EA4621900DD50E3 /* Project object */;
+}

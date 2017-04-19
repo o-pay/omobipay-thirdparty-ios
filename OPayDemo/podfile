@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.3'
+
+target 'OPayDemo' do
+
+  # Pods for OPaySDK
+  pod 'OPaySDK', :path => '../'
+
+end

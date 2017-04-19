@@ -1,0 +1,27 @@
+{
+  "name": "OPaySDK",
+  "version": "2",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "summary": "介接歐付寶相關SDK",
+  "homepage": "https://www.allpay.com.tw/",
+  "license": {
+    "type": "MIT",
+    "text": "              Copyright (C) 2011-2016, allPay\n"
+  },
+  "authors": {
+    "Nixon": "nixon.shih@allpay.com.tw"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "OPaySDK",
+    "OPaySDK/**/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ]
+}
