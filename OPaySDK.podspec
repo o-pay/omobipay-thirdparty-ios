@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = 'OPaySDK'
-  s.version   = '2'
+  s.version   = '0.01'
   s.ios.deployment_target  = '8.0'
 
   s.summary   = 'Super Awesome Easy to use OPay iOS App trade SDK.'
@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   }
 
   s.author    = {
-                  'Nixon' =>  'techsupport@allpay.com.tw'
+                  'o-pay' =>  'techsupport@allpay.com.tw'
                 }
 
-  s.source    = { :path => '.' }
+  s.source    = { :git => "https://github.com/o-pay/omobipay-thirdparty-ios.git", :tag => s.version.to_s  }
   s.source_files  = "OPaySDK", "OPaySDK/**/*.{h,m}"
 
   s.frameworks    = 'Foundation', 'UIKit'
