@@ -1,6 +1,6 @@
 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/OPaySDK.svg)](https://img.shields.io/cocoapods/v/OPaySDK.svg)
-[![Platform](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat)](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat))
+[![Platform](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat)](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat)
 
 ## OMobipay-ThirdParty-iOS
 
