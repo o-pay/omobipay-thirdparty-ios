@@ -1,3 +1,7 @@
+
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/OPaySDK.svg)](https://img.shields.io/cocoapods/v/OPaySDK.svg)
+[![Platform](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat)](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat))
+
 ## OMobipay-ThirdParty-iOS
 
 ### 1. 介紹
@@ -13,6 +17,10 @@
 ### 3. 使用教學
 
 * [allPay開發者專區][]有詳細的教學說明及文件，並有線上模擬範例
+
+### 3. Cocoapods
+
+* pod 'OPaySDK'
 
 ### 4. 聯絡我們
 
