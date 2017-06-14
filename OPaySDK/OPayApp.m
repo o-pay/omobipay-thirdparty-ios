@@ -44,6 +44,7 @@ static OPayApp *_sharedInstace;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     NSURL *url = [launchOptions objectForKey:@"UIApplicationLaunchOptionsURLKey"];
+    if (!url) return true;
     [self setResponseWithURL:url];
     
     return true;

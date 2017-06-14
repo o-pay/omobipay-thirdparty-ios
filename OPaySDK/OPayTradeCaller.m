@@ -27,9 +27,23 @@
 
 - (BOOL)checkoutWithTradeToken:(NSString*)tradeToken
                    redirectURL:(NSString*)redirectURL {
+    
+    NSString *baseURL = kThirdPartyBaseURL;
+    
+    switch ([OPayApp shared].configuration.environment) {
+        case OPayEnvironmentStage:
+            baseURL = [baseURL stringByReplacingOccurrencesOfString:@"opay" withString:@"opay-stage"];
+            break;
+        case OPayEnvironmentBeta:
+            baseURL = [baseURL stringByReplacingOccurrencesOfString:@"opay" withString:@"opay-beta"];
+            break;
+            
+        default:
+            break;
+    }
 
     NSString *urlStr = [NSString stringWithFormat:@"%@MerchantID=%@&Version=%@&TradeToken=%@&redirectURL=%@",
-                        kThirdPartyBaseURL,
+                        baseURL,
                         _merchantID,
                         kSDKVersion,
                         tradeToken,
