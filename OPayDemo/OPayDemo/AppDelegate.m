@@ -14,6 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [OPayApp shared].configuration = [OPayConfiguration configurationWithMerchantID:kMerchantID];
+//    [OPayApp shared].configuration.environment = OPayEnvironmentStage;
     
     BOOL launch = [[OPayApp shared] application:application didFinishLaunchingWithOptions:launchOptions];
     

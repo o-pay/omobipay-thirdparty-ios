@@ -10,7 +10,7 @@
 @implementation OPayConfiguration
 
 + (instancetype)configurationWithMerchantID:(NSString *)merchantID {
-    OPayConfiguration *instance = [OPayConfiguration new];
+    OPayConfiguration *instance = [super new];
     if (!instance) return nil;
     if (!merchantID || [merchantID isEqualToString:@""]) {
         @throw [[NSException alloc]initWithName:@"Init fail."
