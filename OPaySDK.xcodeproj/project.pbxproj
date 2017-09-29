@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010696B21F7E43CA000299D9 /* OPayAppIDCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 010696B01F7E43CA000299D9 /* OPayAppIDCaller.h */; };
+		010696B31F7E43CA000299D9 /* OPayAppIDCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 010696B11F7E43CA000299D9 /* OPayAppIDCaller.m */; };
 		2519F2121EA4A44E00DD50E3 /* OPaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2519F2081EA4A44E00DD50E3 /* OPaySDK.framework */; };
 		2519F2171EA4A44E00DD50E3 /* OPaySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519F2161EA4A44E00DD50E3 /* OPaySDKTests.m */; };
 		2519F2191EA4A44E00DD50E3 /* OPaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2519F20B1EA4A44E00DD50E3 /* OPaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010696B01F7E43CA000299D9 /* OPayAppIDCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPayAppIDCaller.h; sourceTree = "<group>"; };
+		010696B11F7E43CA000299D9 /* OPayAppIDCaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPayAppIDCaller.m; sourceTree = "<group>"; };
 		2519F2081EA4A44E00DD50E3 /* OPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2519F20B1EA4A44E00DD50E3 /* OPaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPaySDK.h; sourceTree = "<group>"; };
 		2519F20C1EA4A44E00DD50E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				2519F23C1EA4A85B00DD50E3 /* OPayConfiguration.m */,
 				2519F23D1EA4A85B00DD50E3 /* OPayTradeCaller.h */,
 				2519F23E1EA4A85B00DD50E3 /* OPayTradeCaller.m */,
+				010696B01F7E43CA000299D9 /* OPayAppIDCaller.h */,
+				010696B11F7E43CA000299D9 /* OPayAppIDCaller.m */,
 				2519F23F1EA4A85B00DD50E3 /* OPTradeResponse.h */,
 				2519F2401EA4A85B00DD50E3 /* OPTradeResponse.m */,
 				2519F2411EA4A85B00DD50E3 /* OPURLSchemeParser.h */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2519F2441EA4A85B00DD50E3 /* OPayApp.h in Headers */,
+				010696B21F7E43CA000299D9 /* OPayAppIDCaller.h in Headers */,
 				2519F2191EA4A44E00DD50E3 /* OPaySDK.h in Headers */,
 				2519F2461EA4A85B00DD50E3 /* OPayConfiguration.h in Headers */,
 				2519F2481EA4A85B00DD50E3 /* OPayTradeCaller.h in Headers */,
@@ -238,6 +245,7 @@
 			files = (
 				2519F2491EA4A85B00DD50E3 /* OPayTradeCaller.m in Sources */,
 				2519F2451EA4A85B00DD50E3 /* OPayApp.m in Sources */,
+				010696B31F7E43CA000299D9 /* OPayAppIDCaller.m in Sources */,
 				2519F24B1EA4A85B00DD50E3 /* OPTradeResponse.m in Sources */,
 				2519F24D1EA4A85B00DD50E3 /* OPURLSchemeParser.m in Sources */,
 				2519F2471EA4A85B00DD50E3 /* OPayConfiguration.m in Sources */,

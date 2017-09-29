@@ -21,4 +21,16 @@
     return instance;
 }
 
++ (instancetype)configurationWithAppID:(NSString *)AppID {
+    OPayConfiguration *instance = [super new];
+    if (!instance) return nil;
+    if (!AppID || [AppID isEqualToString:@""]) {
+        @throw [[NSException alloc]initWithName:@"Init fail."
+                                         reason:@"Invalid AppID value"
+                                       userInfo:nil];
+    }
+    instance.AppID = AppID;
+    return instance;
+}
+
 @end
