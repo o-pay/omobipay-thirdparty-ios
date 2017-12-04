@@ -1,4 +1,4 @@
-
+﻿
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/OPaySDK.svg)](https://img.shields.io/cocoapods/v/OPaySDK.svg)
 [![Platform](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat)](https://img.shields.io/cocoapods/p/OPaySDK.svg?style=flat)
 
@@ -16,7 +16,7 @@
 
 ### 3. 使用教學
 
-* [allPay開發者專區][]有詳細的教學說明及文件，並有線上模擬範例
+* [歐付寶開發者專區]有詳細的教學說明及文件，並有線上模擬範例
 
 ### 3. Cocoapods
 
@@ -24,6 +24,6 @@
 
 ### 4. 聯絡我們
 
-* allPay歐付寶 技術客服信箱：techsupport@allpay.com.tw
+* 歐付寶技術客服信箱：techsupport@opay.tw
 
-[allPay開發者專區]: https://developers.allpay.com.tw/
+[歐付寶開發者專區]: https://developers.opay.tw/
