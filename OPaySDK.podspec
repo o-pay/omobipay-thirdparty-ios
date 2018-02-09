@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name      = 'OPaySDK'
-  s.version   = '1.0.0'
+  s.version   = '1.1.0'
   s.ios.deployment_target  = '8.0'
 
   s.summary   = 'Super Awesome Easy to use OPay iOS App trade SDK.'

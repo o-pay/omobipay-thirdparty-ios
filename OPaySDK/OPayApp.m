@@ -9,7 +9,7 @@
 #import "OPURLSchemeParser.h"
 
 #define kOPBundleID @"tw.com.allpay.app.AllPay"
-#define kOPEpBundleID @"tw.com.allpay.ep.AllPay"
+#define kOPEpBundleID @"tw.opay.ep.mobilepay"
 
 @interface OPayApp ()
 @property (nonatomic, strong) OPTradeResponse *tradeResponse;
